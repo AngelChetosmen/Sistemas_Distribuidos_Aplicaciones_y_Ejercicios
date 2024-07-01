@@ -1,0 +1,71 @@
+public class PruebaRectangulo {
+   public static void main (String[] args) {       
+       int n = Integer.parseInt(args[0]);
+ 
+       Rectangulo[] arrRect = new Rectangulo[n];
+       Random ran = new Random();
+ 
+       Coordenada si = new Coordenada(0,0);
+       Coordenada id = new Coordenada(0,0);
+ 
+       for (int i = 0; i < arrRect.length; i++){
+           si.setOrdenada(ran.nextInt(1000));
+           si.setAbcisa(ran.nextInt(1000));
+           id.setOrdenada(ran.nextInt(1000));
+           id.setAbcisa(ran.nextInt(1000));
+ 
+           arrRect[i] = new Rectangulo(si, id);
+       }
+ 
+       for (int i = 0; i < arrRect.length; i++){
+           System.out.println(arrRect[i]);
+       }
+   }
+}
+-------------------------------------------------------
+
+package C13;
+
+import java.util.Random;
+
+public class PruebaRectangulo {
+    public static void main(String[] args) {
+        // Verifica que se proporcione un argumento (número entero) al programa
+        if (args.length != 1) {
+            System.out.println("Por favor, proporciona un número entero n como argumento.");
+            return;
+        }
+
+        // Intenta convertir el argumento a un número entero
+        try {
+            int n = Integer.parseInt(args[0]);
+
+            // Crea un arreglo estático de 2*n objetos Coordenada
+            Coordenada[] coordenadas = new Coordenada[2 * n];
+            Random rand = new Random();
+
+            for (int i = 0; i < coordenadas.length; i++) {
+                // Genera valores de x y y aleatorios entre 0 y 1000
+                int x = rand.nextInt(1001);
+                int y = rand.nextInt(1001);
+                coordenadas[i] = new Coordenada(x, y);
+            }
+
+            // Crea un arreglo estático de n objetos Rectangulo
+            Rectangulo[] rectangulos = new Rectangulo[n];
+
+            // Inicializa los objetos Rectangulo con las Coordenadas creadas anteriormente
+            for (int i = 0; i < n; i++) {
+                rectangulos[i] = new Rectangulo(coordenadas[i], coordenadas[i + n]);
+            }
+
+            // Imprime el arreglo de objetos Rectangulo
+            for (Rectangulo rectangulo : rectangulos) {
+                System.out.println(rectangulo);
+            }
+
+        } catch (NumberFormatException e) {
+            System.out.println("Por favor, proporciona un número entero válido como argumento.");
+        }
+    }
+}
