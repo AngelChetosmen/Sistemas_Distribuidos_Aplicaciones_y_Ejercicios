@@ -54,8 +54,8 @@ public class ejercicio42 {
     }
 
     private static void translateQuote(String quote) throws IOException, InterruptedException {
-        // API key de Google Cloud Translation (reemplaza con tu propia clave)
-        String apiKey = "AIzaSyAq4w8MRzgOLrNb871E5Cy-j-oYywq-O9Q";
+        // API key de Google Cloud Translation (reemplaza tu propia clave)
+        String apiKey = "**TU API KEY AQUI**";
         // Codifica el texto a traducir para que pueda ser enviado como parámetro en la
         // URL
         String encodedText = URLEncoder.encode(quote, StandardCharsets.UTF_8);
