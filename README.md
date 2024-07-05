@@ -13,19 +13,14 @@ El repositorio cuenta con diferentes carpetas, cada una de ellas contienen el co
 ## Notas
 
 > [!IMPORTANT]
-<p style="color: blue;">
-<strong>Important:</strong> La mayoría de carpetas tienen esta nomenclaruta: C#, donde C = Denotado como 'Clase' y # el día de dicha clase.
-</p>
+La mayoría de carpetas tienen esta nomenclaruta: C#, donde C = Denotado como 'Clase' y # el día de dicha clase.
 
 > [!NOTE]
-<p style="color: green;">
-<strong>Por ejemplo:</strong> Si la carpeta se llama 'C10', entonces es la carpeta que contiene los programas de las actividades realizadas de la **Clase número 10** durante todo el semestre.
-</p>
+Si la carpeta se llama 'C10', entonces es la carpeta que contiene los programas de las actividades realizadas de la **Clase número 10** durante todo el semestre.
+
 
 > [!WARNING]
-<p style="color: orange;">
-<strong>Precaución:</strong> Algunas carpetas requieres de preconfiguración de anteriores clases, por ejemplo, si la **Clase 10 (C10)** se llevó a cabo algo que se tuvo que inicializar con los archivos de la **Clase 9 (C9)**, entonces se deberían que tener los archivos de la Clase 9 para poder comparar los archivos correctamente. **Sin embargo**, por esta razón,  algunas carpetas  no están incluidas de todas la actividades que se hicieron, en total fueron **49 Actividades durante el Curso**, no obstante, algunas clases fueron realizar Reportes, Reseñas, Actividades individuales, etcétera, por lo que si la consulta de estos archivos es con fines de usarlos para otros cursos, **es importante destacar** que las actividades pueden cambiar para diferentes cursos y para diferentes aplicaciones. **Este repositorio** tiene el fin de recopilar algunas aplicaciones que se hicieron, mas bien no con la intención de suplantar actividades previas del mismo curso en un futuro.
-</p>
+Algunas carpetas requieres de preconfiguración de anteriores clases, por ejemplo, si la **Clase 10 (C10)** se llevó a cabo algo que se tuvo que inicializar con los archivos de la **Clase 9 (C9)**, entonces se deberían que tener los archivos de la Clase 9 para poder comparar los archivos correctamente. **Sin embargo**, por esta razón,  algunas carpetas  no están incluidas de todas la actividades que se hicieron, en total fueron **49 Actividades durante el Curso**, no obstante, algunas clases fueron realizar Reportes, Reseñas, Actividades individuales, etcétera, por lo que si la consulta de estos archivos es con fines de usarlos para otros cursos, **es importante destacar** que las actividades pueden cambiar para diferentes cursos y para diferentes aplicaciones. **Este repositorio** tiene el fin de recopilar algunas aplicaciones que se hicieron, mas bien no con la intención de suplantar actividades previas del mismo curso en un futuro.
 
 ## Requisitos
 
